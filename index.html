@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> home</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="wrapper">
+    <div class="row">
+        <div class="header-height col-3"></div>
+        <div class="header-height col-9"></div>
+    </div>
+    <div class="row">
+        <div class="menu-height col-12" id="menu">
+            <ul id="mainUl">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">CONTAC</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="content-height col-3"></div>
+        <div class="col-9  content-height">
+            <form action=" " method="post" id="form">
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>
+                            <input type="text" id="firstName">
+                            <span id="firstNameError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>
+                            <input type="text" id="lastName">
+                            <span id="lastNameError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email Address</td>
+                        <td>
+                            <input type="email" id="emailAddress">
+                            <span id="emailAddressError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" id="password">
+                            <input type="checkbox" id="showHide"> Show Password
+                            <span id="PasswordError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td>
+                            <input type="password" id="confirmPassword">
+                            <span id="confirmPasswordError"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender Info</td>
+                        <td>
+                            <input type="radio" name="gender" value="male"> Male
+                            <input type="radio" name="gender" value="female"> Female
+                            <span id="genderErrorr"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Distric Name</td>
+                        <td>
+                            <select id="distric">
+                                <option value="demo">---Select Distric---</option>
+                                <option value="dhaka">Dhaka</option>
+                                <option value="savar">Savar</option>
+                                <option value="dohar">Dohar</option>
+                                <option value="gazipur">Gazipur</option>
+
+                            </select>
+                            <span id="districErrorr"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="btn" id="btn" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="footer-height col-12"></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="javascript/jquery-3.4.1.js"></script>
+<script src="javascript/script.js"></script>
+</body>
+</html>
